@@ -3,12 +3,30 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-      
+
+    <!-- Theming -->
+    <Preference
+        android:key="android.theme.customization.fonts"
+        android:title="@string/theme_customization_font_title"
+        android:summary="@string/theme_customization_font_summary"
+        android:fragment="com.star.field.fragments.FontsPicker"/>
+
+    <Preference
+        android:key="android.theme.customization.icon_pack"
+        android:title="@string/theme_customization_icon_pack_title"
+        android:summary="@string/theme_customization_icon_pack_summary"
+        android:fragment="com.star.field.fragments.StatusbarIcons"/>
+                
+    <Preference
+        android:key="android.theme.customization.adaptive_icon_shape"
+        android:title="@string/theme_customization_icon_shape_title"
+        android:summary="@string/theme_customization_icon_shape_summary"
+        android:fragment="com.star.field.fragments.IconShapes"/>     
+
     <!-- Monet settings -->
     <Preference
         android:key="monet_settings"
         android:title="@string/monet_settings_title"
         android:summary="@string/monet_settings_sammary"
         android:fragment="com.star.field.fragments.MonetSettings" />
-
 </PreferenceScreen>

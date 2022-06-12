@@ -13,6 +13,11 @@
             android:summary="@string/less_boring_heads_up_summary"
             android:defaultValue="false" />
 
+    <com.pixelstar.support.preferences.SecureSettingSwitchPreference
+            android:key="qs_show_data_usage"
+            android:title="@string/qs_show_data_usage_title"
+            android:summary="@string/qs_show_data_usage_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
    
 </PreferenceScreen>

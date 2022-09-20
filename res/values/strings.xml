@@ -45,7 +45,9 @@
     <string name="listview">ListView</string>
     <string name="general_category">General Settings</string>
     <string name="spoofing_category">Spoofing</string>
-    
+    <string name="clock_category">Clock Customizations</string>
+    <string name="privacy_ind">Privacy Indicators</string>
+
     <!-- App info dialog -->
     <string name="starfield_dialog_title">Time To Shine!</string>
     <string name="starfield_dialog_message">If you find a bug with any of these settings, report it in our Telegram Group. You MUST include the following when posting a bug report:\n\n1. A logcat or last_kmsg\n2. Kernel and mods used\n3. Useful information\n\nIf you fail to report something adequately, DO NOT expect things to be fixed.</string>
@@ -91,4 +93,11 @@
     <string name="status_bar_am_pm_small">Small</string>
     <string name="status_bar_am_pm_hidden">Hidden</string>
     
+    <!-- Privacy Indicator -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_summary">Show indicator when any app uses mic or camera</string>
+    <string name="location_privacy_indicator_title">Location privacy indicator</string>
+    <string name="location_privacy_indicator_summary">Show indicator when any app uses location</string>
+    <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
+    <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
 </resources>

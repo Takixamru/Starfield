@@ -54,10 +54,16 @@
             android:summary="@string/show_fourg_icon_summary"
             android:defaultValue="false"/>
 
-	<com.pixelstar.support.preferences.SystemSettingSwitchPreference
+	    <com.pixelstar.support.preferences.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
             android:title="@string/data_disabled_icon_title"
             android:summary="@string/data_disabled_icon_summary"
+            android:defaultValue="true"/>
+
+	    <com.pixelstar.support.preferences.SystemSettingSwitchPreference
+            android:key="roaming_indicator_icon"
+            android:title="@string/roaming_indicator_icon_title"
+            android:summary="@string/roaming_indicator_icon_summary"
             android:defaultValue="true"/>
 
     </PreferenceCategory>
